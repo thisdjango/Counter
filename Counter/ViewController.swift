@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     }
 
     @objc func resetCounter() {
-        counter = 0
+        navigationController?.present(SecondViewController(), animated: true)
     }
     
 }
